@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+      <TargetFrameworks>net461;netstandard2.0;netcoreapp2.1</TargetFrameworks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySqlConnector" Version="0.63.0" />
+    <PackageReference Include="NHibernate" Version="5.1.0" />
+  </ItemGroup>
+
+</Project>
