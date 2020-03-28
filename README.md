@@ -12,10 +12,14 @@ bugs in MySql.Data.
 
 ## Usage
 
-Set `connection.driver_class` in you NHibernate session factory config to:
+Set `connection.driver_class` in your NHibernate session factory config to:
 
- - `connection.driver_class`: `NHibernate.MySqlConnector.Driver.MySqlConnectorDriver, NHibernate.MySqlConnector` 
-
+ - `connection.driver_class`: `NHibernate.Driver.MySqlConnectorDriver, NHibernate.Driver.MySqlConnector` 
+ 
+or use the Configure-by-code helper:
+ 
+ - `new Configuration().DataBaseIntegration.(c => c.MySqlConnectorDriver());`
+ 
 Values of the other parameters should stay the same as when using `MySql.Data`:
 
  - `connection.provider`: `NHibernate.Connection.DriverConnectionProvider`
