@@ -18,7 +18,7 @@ Set `connection.driver_class` in your NHibernate session factory config to:
  
 or use the Configure-by-code helper:
  
- - `new Configuration().DataBaseIntegration.(c => c.MySqlConnectorDriver());`
+ - `new Configuration().DataBaseIntegration(c => c.MySqlConnectorDriver());`
  
 Values of the other parameters should stay the same as when using `MySql.Data`:
 
