@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.MySqlConnector.Driver", "NHibernate.MySqlConnector.Driver\NHibernate.MySqlConnector.Driver.csproj", "{32339143-AF38-4521-BF81-03E46771DE2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NHibernate.Driver.MySqlConnector", "NHibernate.Driver.MySqlConnector\NHibernate.Driver.MySqlConnector.csproj", "{32339143-AF38-4521-BF81-03E46771DE2E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

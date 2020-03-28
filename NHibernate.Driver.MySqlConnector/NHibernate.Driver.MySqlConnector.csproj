@@ -12,7 +12,9 @@
       <PackageTags>nhibernate; mysqlconnector; mysql; mariadb;</PackageTags>
       <Description>NHibernate driver for MySQL/MariaDB using MySqlConnector.</Description>
       <RepositoryUrl>https://github.com/nhibernate/NHibernate.MySqlConnector</RepositoryUrl>
-      <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+      <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+      <Product>NHibernate.Driver.MySqlConnector</Product>
+      <PackageId>NHibernate.Driver.MySqlConnector</PackageId>
   </PropertyGroup>
 
   <ItemGroup>

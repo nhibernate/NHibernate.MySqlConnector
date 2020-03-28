@@ -4,10 +4,9 @@ using System.Data.Common;
 using MySql.Data.MySqlClient;
 
 using NHibernate.AdoNet;
-using NHibernate.Driver;
 using NHibernate.Engine;
 
-namespace NHibernate.MySqlConnector.Driver
+namespace NHibernate.Driver.MySqlConnector
 {
     /// <summary>
     /// Provides a database driver for MySQL using <a href="https://mysqlconnector.net/">MySqlConnector</a>.
