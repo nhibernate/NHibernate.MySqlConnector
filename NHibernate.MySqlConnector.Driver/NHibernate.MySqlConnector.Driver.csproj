@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-      <TargetFrameworks>net461;netstandard2.0;netcoreapp2.1</TargetFrameworks>
+      <TargetFrameworks>net461;netstandard2.0</TargetFrameworks>
       <SignAssembly>true</SignAssembly>
       <AssemblyOriginatorKeyFile>NHibernate.MySqlConnector.snk</AssemblyOriginatorKeyFile>
       <Authors>NHibernate community</Authors>
