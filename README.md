@@ -1,6 +1,6 @@
 # NHibernate.MySqlConnector
 
-This package provides an alternative MySQL/MariaDB driver for NHibernate
+This [package](https://www.nuget.org/packages/NHibernate.Driver.MySqlConnector) provides an alternative MySQL/MariaDB driver for NHibernate
 in addition to `NHibernate.Driver.MySqlDataDriver` provided by `nhibernate-core`.
 
 It uses the [MySqlConnector](https://github.com/mysql-net/MySqlConnector) library
