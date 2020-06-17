@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Data.Common;
 
-using MySql.Data.MySqlClient;
+using MySqlConnector;
 
 using NHibernate.AdoNet;
 using NHibernate.Engine;
