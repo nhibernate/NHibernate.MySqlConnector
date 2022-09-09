@@ -12,7 +12,7 @@ bugs in MySql.Data.
 
 Set `connection.driver_class` in your NHibernate session factory config to:
 
- - `connection.driver_class`: `NHibernate.Driver.MySqlConnectorDriver, NHibernate.Driver.MySqlConnector` 
+ - `connection.driver_class`: `NHibernate.Driver.MySqlConnector.MySqlConnectorDriver, NHibernate.Driver.MySqlConnector` 
  
 or use the Configure-by-code helper:
  
