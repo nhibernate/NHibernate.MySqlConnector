@@ -3,7 +3,7 @@ image: Visual Studio 2019
 environment:
   IGNORE_NORMALISATION_GIT_HEAD_MOVE: 1
 build_script:
-  - dotnet pack -c Release -o out
+  - dotnet pack -c Release -o out -p:ContinuousIntegrationBuild=true 
 artifacts:
   - path: out\*.*nupkg
 deploy:
