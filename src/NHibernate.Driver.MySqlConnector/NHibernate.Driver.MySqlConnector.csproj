@@ -18,7 +18,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MySqlConnector" Version="[1.0.0, 2.0.0)" />
+    <PackageReference Include="MySqlConnector" Version="1.0.0" />
     <PackageReference Include="NHibernate" Version="5.1.0" />
   </ItemGroup>
 
