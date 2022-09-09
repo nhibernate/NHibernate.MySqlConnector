@@ -5,7 +5,7 @@ environment:
 build_script:
   - dotnet pack -c Release -o out
 artifacts:
-  - path: out\*.nupkg
+  - path: out\*.*nupkg
 deploy:
   - provider: NuGet
     api_key:
