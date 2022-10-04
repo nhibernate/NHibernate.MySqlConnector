@@ -2,10 +2,9 @@
 using NHibernate.Driver.MySqlConnector;
 
 // ReSharper disable once CheckNamespace
-namespace NHibernate.Cfg
+namespace NHibernate.Cfg;
+
+public static class ConnectionConfigurationExtensionMySqlConnector
 {
-    public static class ConnectionConfigurationExtensionMySqlConnector
-    {
-        public static void MySqlConnectorDriver(this IDbIntegrationConfigurationProperties cfg) => cfg.Driver<MySqlConnectorDriver>();
-    }
+    public static void MySqlConnectorDriver(this IDbIntegrationConfigurationProperties cfg) => cfg.Driver<MySqlConnectorDriver>();
 }

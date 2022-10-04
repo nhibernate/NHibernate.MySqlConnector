@@ -1,28 +1,29 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-      <TargetFrameworks>net461;netstandard2.0</TargetFrameworks>
-      <SignAssembly>true</SignAssembly>
-      <AssemblyOriginatorKeyFile>NHibernate.MySqlConnector.snk</AssemblyOriginatorKeyFile>
-      <Authors>NHibernate community</Authors>
-      <Company>NHibernate.info</Company>
-      <Copyright>Licensed under LGPL.</Copyright>
-      <PackageLicenseExpression>LGPL-2.1-only</PackageLicenseExpression>
-      <PackageProjectUrl>http://nhibernate.info</PackageProjectUrl>
-      <PackageTags>nhibernate; mysqlconnector; mysql; mariadb;</PackageTags>
-      <Description>NHibernate driver for MySQL/MariaDB using MySqlConnector.</Description>
-      <RepositoryUrl>https://github.com/nhibernate/NHibernate.MySqlConnector</RepositoryUrl>
-      <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-      <Product>NHibernate.Driver.MySqlConnector</Product>
-      <PackageId>NHibernate.Driver.MySqlConnector</PackageId>
-      <IncludeSymbols>true</IncludeSymbols>
-      <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-      <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <TargetFrameworks>net461;netstandard2.0</TargetFrameworks>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>NHibernate.MySqlConnector.snk</AssemblyOriginatorKeyFile>
+    <Authors>NHibernate community</Authors>
+    <Company>NHibernate.info</Company>
+    <Copyright>Licensed under LGPL.</Copyright>
+    <PackageLicenseExpression>LGPL-2.1-only</PackageLicenseExpression>
+    <PackageProjectUrl>http://nhibernate.info</PackageProjectUrl>
+    <PackageTags>nhibernate; mysqlconnector; mysql; mariadb;</PackageTags>
+    <Description>NHibernate driver for MySQL/MariaDB using MySqlConnector.</Description>
+    <RepositoryUrl>https://github.com/nhibernate/NHibernate.MySqlConnector</RepositoryUrl>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Product>NHibernate.Driver.MySqlConnector</Product>
+    <PackageId>NHibernate.Driver.MySqlConnector</PackageId>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <LangVersion>10</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MySqlConnector" Version="1.0.0" />
-    <PackageReference Include="NHibernate" Version="5.1.0" />
+    <PackageReference Include="MySqlConnector" Version="1.0.0"/>
+    <PackageReference Include="NHibernate" Version="5.1.0"/>
   </ItemGroup>
 
 </Project>

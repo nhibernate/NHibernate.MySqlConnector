@@ -1,0 +1,23 @@
+﻿root = true
+
+[*]
+insert_final_newline = true
+
+[*.cs]
+
+# Microsoft .NET properties
+csharp_style_expression_bodied_accessors = true:suggestion
+csharp_style_expression_bodied_constructors = true:suggestion
+csharp_style_expression_bodied_methods = true:suggestion
+csharp_style_expression_bodied_properties = true:suggestion
+csharp_style_namespace_declarations = file_scoped:warning
+csharp_style_implicit_object_creation_when_type_is_apparent = true:warning
+dotnet_separate_import_directive_groups = true
+
+# ReSharper properties
+resharper_csharp_max_line_length = 160
+resharper_object_creation_when_type_evident = target_typed
+
+[{*.props, *.csproj, *.vbproj}]
+indent_style = space
+indent_size = 2
