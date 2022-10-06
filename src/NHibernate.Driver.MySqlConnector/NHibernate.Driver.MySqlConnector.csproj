@@ -9,6 +9,7 @@
     <Copyright>Licensed under LGPL.</Copyright>
     <PackageLicenseExpression>LGPL-2.1-only</PackageLicenseExpression>
     <PackageProjectUrl>http://nhibernate.info</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>nhibernate; mysqlconnector; mysql; mariadb;</PackageTags>
     <Description>NHibernate driver for MySQL/MariaDB using MySqlConnector.</Description>
     <RepositoryUrl>https://github.com/nhibernate/NHibernate.MySqlConnector</RepositoryUrl>
@@ -24,6 +25,10 @@
   <ItemGroup>
     <PackageReference Include="MySqlConnector" Version="1.0.0"/>
     <PackageReference Include="NHibernate" Version="5.1.0"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="../../README.md" PackagePath="/" />
   </ItemGroup>
 
 </Project>
