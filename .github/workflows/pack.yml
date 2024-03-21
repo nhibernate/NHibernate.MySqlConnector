@@ -22,7 +22,7 @@ jobs:
         dotnet-version: 8.0.x
 
     - name: Pack
-      run: dotnet pack -c Release -o out -p:ContinuousIntegrationBuild=truedotnet pack -c Release -o out
+      run: dotnet pack -c Release -o out -p:ContinuousIntegrationBuild=true
 
     - name: Push
       run: dotnet nuget push * -s nuget.org -k $NUGET_API_KEY
