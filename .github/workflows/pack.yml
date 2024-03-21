@@ -25,7 +25,7 @@ jobs:
       run: dotnet pack -c Release -o out -p:ContinuousIntegrationBuild=true
 
     - name: Push
-      run: dotnet nuget push * -s nuget.org -k "$NUGET_API_KEY"
+      run: dotnet nuget push *.nupkg -s nuget.org -k "$NUGET_API_KEY"
       working-directory: out
       env:
         NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
