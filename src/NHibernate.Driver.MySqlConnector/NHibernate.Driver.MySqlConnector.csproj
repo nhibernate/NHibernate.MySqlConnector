@@ -24,7 +24,7 @@
 
   <ItemGroup>
     <PackageReference Include="MySqlConnector" Version="1.0.0"/>
-    <PackageReference Include="NHibernate" Version="5.4.9"/>
+    <PackageReference Include="NHibernate" Version="5.5.2"/>
   </ItemGroup>
 
   <ItemGroup>
